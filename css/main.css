@@ -1,0 +1,22 @@
+button {
+    background-color: #1167c4;
+    color: white;
+}
+.green {
+    background-color: #2cd67b;
+}
+.bg-info:hover  {
+    transition: all 1s;
+    background-color: #2cd67b !important;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.left {
+    margin-left: 0 !important;
+}
+.black {
+    background-color: black;
+}

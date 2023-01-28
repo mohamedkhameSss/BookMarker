@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Marker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="ms-2 my-5 bg-light fw-bold opacity-50">Bookmarker</h2>
+        <hr class="mb-2">
+        <div class="p-5 text-center  rounded-2 green text-white">
+            <h3 class="mb-5">Bookmark your favorite sites </h3>
+            <h5 class="text-white">Site Name</h5>
+            <input type="text" id="sitename" class="form-control my-3" placeholder="Bookmark name">
+            <div id="alertName" class="d-none alert alert-danger py-1 " role="alert">NAME not accurate ! PLEASE RE INTER
+                IT
+            </div>
+            <h5>Site URL</h5>
+            <input type="text" id="siteUrl" class=" form-control my-3" placeholder="Website URL">
+            <div id="alertRed" class="d-none alert alert-danger py-1 " role="alert">URL NOT CORRECT ! PLEASE RE INTER IT
+            </div>
+            <button id="mainButton" class="btn btn-dark  px-4 py-2 rounded-3 border-0 " disabled>Submit</button>
+        </div>
+        <table class="w-100 my-2 rounded-2 ">
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
